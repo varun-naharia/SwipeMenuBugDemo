@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" systemVersion="17A277" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="LEr-ZY-GPf">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -9,16 +14,134 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="SwipeMenuBugDemo" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <navigationItem key="navigationItem" id="fme-Df-vwe"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="456.80000000000001" y="117.39130434782609"/>
+        </scene>
+        <!--First View Controller-->
+        <scene sceneID="kfW-Zt-7HR">
+            <objects>
+                <viewController storyboardIdentifier="FirstViewController" id="Xzs-vq-Cdd" customClass="FirstViewController" customModule="SwipeMenuBugDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Npm-Pw-yiX">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x1Y-gj-wG4">
+                                <rect key="frame" x="16" y="303.5" width="343" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="Wju-7f-UtM"/>
+                                </constraints>
+                                <state key="normal" title="Print FirstViewController"/>
+                                <connections>
+                                    <action selector="printAction:" destination="Xzs-vq-Cdd" eventType="touchUpInside" id="1CR-PJ-zSS"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="x1Y-gj-wG4" firstAttribute="leading" secondItem="Npm-Pw-yiX" secondAttribute="leadingMargin" id="0uT-Af-7vC"/>
+                            <constraint firstItem="x1Y-gj-wG4" firstAttribute="trailing" secondItem="Npm-Pw-yiX" secondAttribute="trailingMargin" id="1qa-Cj-iWQ"/>
+                            <constraint firstItem="x1Y-gj-wG4" firstAttribute="centerY" secondItem="Npm-Pw-yiX" secondAttribute="centerY" id="zaI-KS-hSS"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="5gO-tn-1Sl"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="84p-HK-aeL" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1285.5999999999999" y="-620.23988005997012"/>
+        </scene>
+        <!--Second View Controller-->
+        <scene sceneID="9TA-4C-NTH">
+            <objects>
+                <viewController storyboardIdentifier="SecondViewController" id="zdL-k1-2HE" customClass="SecondViewController" customModule="SwipeMenuBugDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="i34-0t-nss">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4ub-St-94G">
+                                <rect key="frame" x="16" y="303" width="343" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="bhf-Vq-ZTn"/>
+                                </constraints>
+                                <state key="normal" title="Print SecondViewController"/>
+                                <connections>
+                                    <action selector="printAction:" destination="zdL-k1-2HE" eventType="touchUpInside" id="VEc-Yy-oJH"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="4ub-St-94G" firstAttribute="leading" secondItem="i34-0t-nss" secondAttribute="leadingMargin" id="kDu-hx-dDB"/>
+                            <constraint firstItem="4ub-St-94G" firstAttribute="trailing" secondItem="i34-0t-nss" secondAttribute="trailingMargin" id="nmb-pS-fRR"/>
+                            <constraint firstItem="4ub-St-94G" firstAttribute="centerY" secondItem="i34-0t-nss" secondAttribute="centerY" id="sUl-7M-LhW"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="f4p-dX-BrI"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="VtJ-hw-3NJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1286" y="117"/>
+        </scene>
+        <!--Third View Controller-->
+        <scene sceneID="xUP-ce-4FZ">
+            <objects>
+                <viewController storyboardIdentifier="ThirdViewController" id="Z48-1D-c9H" customClass="ThirdViewController" customModule="SwipeMenuBugDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="fsK-g6-z2G">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JMi-iv-Ro9">
+                                <rect key="frame" x="16" y="303" width="343" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="Zy5-tg-kEi"/>
+                                </constraints>
+                                <state key="normal" title="Print ThirdViewController"/>
+                                <connections>
+                                    <action selector="printAction:" destination="Z48-1D-c9H" eventType="touchUpInside" id="FFo-SR-nCg"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="JMi-iv-Ro9" firstAttribute="centerY" secondItem="fsK-g6-z2G" secondAttribute="centerY" id="SuM-Vt-jPk"/>
+                            <constraint firstItem="JMi-iv-Ro9" firstAttribute="trailing" secondItem="fsK-g6-z2G" secondAttribute="trailingMargin" id="ekw-vx-qqR"/>
+                            <constraint firstItem="JMi-iv-Ro9" firstAttribute="leading" secondItem="fsK-g6-z2G" secondAttribute="leadingMargin" id="j32-hl-rUg"/>
+                            <constraint firstItem="JMi-iv-Ro9" firstAttribute="centerY" secondItem="fsK-g6-z2G" secondAttribute="centerY" id="sTQ-8N-uCE"/>
+                            <constraint firstItem="JMi-iv-Ro9" firstAttribute="centerX" secondItem="fsK-g6-z2G" secondAttribute="centerX" id="vej-Xk-1TG"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Sws-9R-tdJ"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aOV-U5-vk1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1286" y="800"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="Rtg-hv-tIs">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="LEr-ZY-GPf" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="iQi-Bf-rdu">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="zBm-cf-fr2"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="16a-m6-ci3" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-338" y="117"/>
         </scene>
     </scenes>
 </document>

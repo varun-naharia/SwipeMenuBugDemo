@@ -14,6 +14,17 @@
 		ABA4B26A1FD7C97700C72C96 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABA4B2681FD7C97700C72C96 /* LaunchScreen.storyboard */; };
 		ABA4B2751FD7C97700C72C96 /* SwipeMenuBugDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA4B2741FD7C97700C72C96 /* SwipeMenuBugDemoTests.swift */; };
 		ABA4B2801FD7C97700C72C96 /* SwipeMenuBugDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA4B27F1FD7C97700C72C96 /* SwipeMenuBugDemoUITests.swift */; };
+		ABA4B28E1FD7C98B00C72C96 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA4B28D1FD7C98B00C72C96 /* FirstViewController.swift */; };
+		ABA4B2901FD7C99800C72C96 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA4B28F1FD7C99700C72C96 /* SecondViewController.swift */; };
+		ABA4B2921FD7C9A300C72C96 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA4B2911FD7C9A300C72C96 /* ThirdViewController.swift */; };
+		ABA4B2B31FD7C9EF00C72C96 /* ContentScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA4B2A81FD7C9EF00C72C96 /* ContentScrollView.swift */; };
+		ABA4B2B41FD7C9EF00C72C96 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA4B2AA1FD7C9EF00C72C96 /* UIColorExtension.swift */; };
+		ABA4B2B51FD7C9EF00C72C96 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA4B2AB1FD7C9EF00C72C96 /* UIViewExtension.swift */; };
+		ABA4B2B61FD7C9EF00C72C96 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = ABA4B2AD1FD7C9EF00C72C96 /* Info.plist */; };
+		ABA4B2B71FD7C9EF00C72C96 /* SwipeMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA4B2AF1FD7C9EF00C72C96 /* SwipeMenuView.swift */; };
+		ABA4B2B81FD7C9EF00C72C96 /* SwipeMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA4B2B01FD7C9EF00C72C96 /* SwipeMenuViewController.swift */; };
+		ABA4B2B91FD7C9EF00C72C96 /* TabItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA4B2B11FD7C9EF00C72C96 /* TabItemView.swift */; };
+		ABA4B2BA1FD7C9EF00C72C96 /* TabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA4B2B21FD7C9EF00C72C96 /* TabView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +58,18 @@
 		ABA4B27B1FD7C97700C72C96 /* SwipeMenuBugDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwipeMenuBugDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABA4B27F1FD7C97700C72C96 /* SwipeMenuBugDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeMenuBugDemoUITests.swift; sourceTree = "<group>"; };
 		ABA4B2811FD7C97700C72C96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABA4B28D1FD7C98B00C72C96 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		ABA4B28F1FD7C99700C72C96 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		ABA4B2911FD7C9A300C72C96 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		ABA4B2A81FD7C9EF00C72C96 /* ContentScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentScrollView.swift; sourceTree = "<group>"; };
+		ABA4B2AA1FD7C9EF00C72C96 /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		ABA4B2AB1FD7C9EF00C72C96 /* UIViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		ABA4B2AD1FD7C9EF00C72C96 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABA4B2AE1FD7C9EF00C72C96 /* SwipeMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwipeMenuViewController.h; sourceTree = "<group>"; };
+		ABA4B2AF1FD7C9EF00C72C96 /* SwipeMenuView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwipeMenuView.swift; sourceTree = "<group>"; };
+		ABA4B2B01FD7C9EF00C72C96 /* SwipeMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwipeMenuViewController.swift; sourceTree = "<group>"; };
+		ABA4B2B11FD7C9EF00C72C96 /* TabItemView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabItemView.swift; sourceTree = "<group>"; };
+		ABA4B2B21FD7C9EF00C72C96 /* TabView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +120,16 @@
 		ABA4B25E1FD7C97700C72C96 /* SwipeMenuBugDemo */ = {
 			isa = PBXGroup;
 			children = (
+				ABA4B2A71FD7C9EF00C72C96 /* SwipeMenu */,
 				ABA4B25F1FD7C97700C72C96 /* AppDelegate.swift */,
 				ABA4B2611FD7C97700C72C96 /* ViewController.swift */,
 				ABA4B2631FD7C97700C72C96 /* Main.storyboard */,
 				ABA4B2661FD7C97700C72C96 /* Assets.xcassets */,
 				ABA4B2681FD7C97700C72C96 /* LaunchScreen.storyboard */,
 				ABA4B26B1FD7C97700C72C96 /* Info.plist */,
+				ABA4B28D1FD7C98B00C72C96 /* FirstViewController.swift */,
+				ABA4B28F1FD7C99700C72C96 /* SecondViewController.swift */,
+				ABA4B2911FD7C9A300C72C96 /* ThirdViewController.swift */,
 			);
 			path = SwipeMenuBugDemo;
 			sourceTree = "<group>";
@@ -123,6 +150,38 @@
 				ABA4B2811FD7C97700C72C96 /* Info.plist */,
 			);
 			path = SwipeMenuBugDemoUITests;
+			sourceTree = "<group>";
+		};
+		ABA4B2A71FD7C9EF00C72C96 /* SwipeMenu */ = {
+			isa = PBXGroup;
+			children = (
+				ABA4B2A81FD7C9EF00C72C96 /* ContentScrollView.swift */,
+				ABA4B2A91FD7C9EF00C72C96 /* Extensions */,
+				ABA4B2AC1FD7C9EF00C72C96 /* Supporting files */,
+				ABA4B2AF1FD7C9EF00C72C96 /* SwipeMenuView.swift */,
+				ABA4B2B01FD7C9EF00C72C96 /* SwipeMenuViewController.swift */,
+				ABA4B2B11FD7C9EF00C72C96 /* TabItemView.swift */,
+				ABA4B2B21FD7C9EF00C72C96 /* TabView.swift */,
+			);
+			path = SwipeMenu;
+			sourceTree = "<group>";
+		};
+		ABA4B2A91FD7C9EF00C72C96 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				ABA4B2AA1FD7C9EF00C72C96 /* UIColorExtension.swift */,
+				ABA4B2AB1FD7C9EF00C72C96 /* UIViewExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		ABA4B2AC1FD7C9EF00C72C96 /* Supporting files */ = {
+			isa = PBXGroup;
+			children = (
+				ABA4B2AD1FD7C9EF00C72C96 /* Info.plist */,
+				ABA4B2AE1FD7C9EF00C72C96 /* SwipeMenuViewController.h */,
+			);
+			path = "Supporting files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,6 +291,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ABA4B2B61FD7C9EF00C72C96 /* Info.plist in Resources */,
 				ABA4B26A1FD7C97700C72C96 /* LaunchScreen.storyboard in Resources */,
 				ABA4B2671FD7C97700C72C96 /* Assets.xcassets in Resources */,
 				ABA4B2651FD7C97700C72C96 /* Main.storyboard in Resources */,
@@ -259,8 +319,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ABA4B2B91FD7C9EF00C72C96 /* TabItemView.swift in Sources */,
+				ABA4B2901FD7C99800C72C96 /* SecondViewController.swift in Sources */,
+				ABA4B2B41FD7C9EF00C72C96 /* UIColorExtension.swift in Sources */,
+				ABA4B28E1FD7C98B00C72C96 /* FirstViewController.swift in Sources */,
+				ABA4B2B71FD7C9EF00C72C96 /* SwipeMenuView.swift in Sources */,
+				ABA4B2921FD7C9A300C72C96 /* ThirdViewController.swift in Sources */,
 				ABA4B2621FD7C97700C72C96 /* ViewController.swift in Sources */,
+				ABA4B2B81FD7C9EF00C72C96 /* SwipeMenuViewController.swift in Sources */,
 				ABA4B2601FD7C97700C72C96 /* AppDelegate.swift in Sources */,
+				ABA4B2B51FD7C9EF00C72C96 /* UIViewExtension.swift in Sources */,
+				ABA4B2BA1FD7C9EF00C72C96 /* TabView.swift in Sources */,
+				ABA4B2B31FD7C9EF00C72C96 /* ContentScrollView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
