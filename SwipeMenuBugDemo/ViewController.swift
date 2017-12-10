@@ -83,15 +83,19 @@ class ViewController: SwipeMenuViewController  {
         switch index {
         case 0:
             let vc:FirstViewController = self.storyboard?.instantiateViewController(withIdentifier: "FirstViewController") as! FirstViewController
+            addChildViewController(vc)
             return vc
         case 1:
             let vc:SecondViewController = self.storyboard?.instantiateViewController(withIdentifier: "SecondViewController") as! SecondViewController
+            addChildViewController(vc)
             return vc
         case 2:
             let vc:ThirdViewController = self.storyboard?.instantiateViewController(withIdentifier: "ThirdViewController") as! ThirdViewController
+            addChildViewController(vc)
             return vc
         default:
             let vc:FirstViewController = self.storyboard?.instantiateViewController(withIdentifier: "FirstViewController") as! FirstViewController
+            addChildViewController(vc)
             return vc
         }
     }
